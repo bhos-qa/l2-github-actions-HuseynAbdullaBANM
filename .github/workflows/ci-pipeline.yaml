@@ -23,6 +23,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '19'
+          distribution: temurin
 
       - name: Gradle test
         run: ./gradlew test
