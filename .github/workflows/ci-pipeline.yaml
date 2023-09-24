@@ -24,6 +24,8 @@ jobs:
         with:
           java-version: '19'
           distribution: temurin
+      - name: Permissions is granted
+        run: chmod +x gradlew
 
       - name: Gradle test
         run: ./gradlew test
