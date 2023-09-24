@@ -3,8 +3,6 @@ name: CI
 run-name: ${{ github.actor }} creates CI pipeline
 # Controls when the workflow will run
 on:
-  push:
-    branches: [ "develop" ]
   pull_request:
     branches: [ "develop" ]
 
